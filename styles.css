@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(to right, #e0fadc, #faeeeb, #edfffd);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav-img{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.nav-btn i{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.nav-btn .fa-arrow-right{
+    transform: rotate(320deg);
+}
+
+.nav-btn{
+    background-color: #fff;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    padding: 2px 4px;
+    width: fit-content;
+}
+
+.nav-btn span{
+    padding-left: 10px;
+}
+
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-section{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-img imG{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+
+/* MAIN SECTION */
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    gap: 20px;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-header{
+    padding: 15px;
+
+}
+.about-header h2{
+    color: green;
+}
+
+.about-content{
+    padding: 15px;
+    width: 500px;
+}
+
+.about-img{
+    padding: 15px;
+}
+
+.project-images{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 25px;
+}
+
+.project-images img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.hero-project img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* ABOUT RIGHT SECTION */
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-right-content i{
+    background-color: rgba(34, 139, 34, 0.2);
+    color: forestgreen;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.about-border{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-text-color{
+    color: forestgreen;
+}
+
+.about-short-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
